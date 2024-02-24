@@ -1,0 +1,65 @@
+:root { 
+  --black: #000000;
+  --log-cabin: #222121e6;
+  --mariner: #315dce;
+  --shark: #292929;
+  --white: #ffffff;
+ 
+  --font-size-l: 20px;
+  --font-size-m: 15px;
+  --font-size-s: 14px;
+  --font-size-xs: 12px;
+  --font-size-xxs: 11px;
+  --font-size-xxxs: 10px;
+ 
+  --font-family-poor_story: "Poor Story", Helvetica;
+  --font-family-post_no_bills_colombo_semibold-regular: "Post No Bills Colombo SemiBold-Regular", Helvetica;
+  --font-family-press_start_2p: "Press Start 2P", Helvetica;
+}
+.poorstory-normal-white-15px {
+  color: var(--white);
+  font-family: var(--font-family-poor_story);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pressstart2p-normal-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-press_start_2p);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.postnobillscolombosemibold-regular-normal-white-15px {
+  color: var(--white);
+  font-family: var(--font-family-post_no_bills_colombo_semibold-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pressstart2p-normal-white-11px {
+  color: var(--white);
+  font-family: var(--font-family-press_start_2p);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pressstart2p-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-press_start_2p);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.pressstart2p-normal-mariner-14px {
+  color: var(--mariner);
+  font-family: var(--font-family-press_start_2p);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
